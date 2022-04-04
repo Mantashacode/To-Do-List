@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+#head{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  background-color:#055157;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -20px;
+  height: 100%;
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.container1 {
+
+  margin-left: 5vw;
+  margin-right: 4vw;
+  padding-top: 4vw;
+}
+.container1 p {
+  font-size: 2vw;
+  font-family: "Roboto", sans-serif;
+  color: #e5eaee;
+  font-weight: 800;
+  text-shadow: 2px 2px 0px #3d3d3d;
+  margin-left: 38%;
+}
+.input-area input {
+  border: 2px solid #ff7675;
+  color: #0a3e55da;
+  height: 5vw;
+  width: 40vw;
+  font-size: 2vw;
+}
+.input-area button {
+  font-size: 20px;
+  margin-left: 36%;
+  background-color: #ff7675;
+  border: transparent;
+  color: white;
+}
+.display-main {
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 4vw;
+  background-color:  #0a3e55da;
+  width: 40vw;
+}
+.display-data {
+  width: 40vw;
+  height: max-content;
+  background-color: #fab1a0;
+  border: 2px solid #dff9fb;
+  margin-bottom: 10px;
+   word-wrap: break-word;
+   padding-bottom: 8px;
+}
+.display-data .checkbox {
+  margin-top: 10px;
+margin-left: 70px;
+margin-top: -33px;
+width:30px;
+height:30px;
+display: block;
+ 
+}
+.display-data .checkbox:checked{
+  background-color: rgb(218, 50, 50);
+  color:rgb(218, 50, 50);
+}
+.display-data .ui.red.basic.button{
+  margin-top: 20px;
+  margin-left: 10px;
+ width: 52px;
+    height: 34px
+ 
+}
+.display-data .task {
+  font-size: 2vw;
+  font-family: "Roboto", sans-serif;
+  color: #0a3e55da;
+}
+.display-data .check{
+ margin-left: 60px;
+}
+.heading {
+  font-size: 2vw;
+  font-family: "Roboto", sans-serif;
+  color: #e5eaee;
+  text-align: center;
+  background-color: #055157;
+  text-decoration: underline;
+}
+ #dark{
+   font-size: 20px;
+   background-color:  #0a3e55da;
+   color:white;
+   width:150px;
+   height:40px;
+   text-align: center;
+   border-radius: 20px;
+   margin-top: 40px;
+   padding-bottom: 4px;
+   padding-top: 4px;
+   margin-left: 30px;
+    border: transparent;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.darkmode{
+  background-color:#055157 ;
+}
+.light{
+  background-color:#196b6b;
+}
